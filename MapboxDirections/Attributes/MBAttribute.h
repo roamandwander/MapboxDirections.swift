@@ -46,5 +46,5 @@ typedef NS_OPTIONS(NSUInteger, MBAttributeOptions) {
     /**
      Doc me.
      */
-    MBMaximumSpeedLimit = (1 << 6),
+    MBAttributeMaximumSpeedLimit = (1 << 6),
 };
