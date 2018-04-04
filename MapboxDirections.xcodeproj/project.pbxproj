@@ -48,6 +48,9 @@
 		C53A022C1E92C281009837BD /* annotation.json in Resources */ = {isa = PBXBuildFile; fileRef = C5A3D3971E8188FE00D494A0 /* annotation.json */; };
 		C5434B8A200693D00069E887 /* MBTracepoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5434B89200693D00069E887 /* MBTracepoint.swift */; };
 		C5434B8C200695A50069E887 /* MBMatchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5434B8B200695A50069E887 /* MBMatchOptions.swift */; };
+		C54549FC2073F1EF002E273F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C582BA2D2073ED6300647DAA /* Array.swift */; };
+		C54549FD2073F1F0002E273F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C582BA2D2073ED6300647DAA /* Array.swift */; };
+		C54549FE2073F1F1002E273F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C582BA2D2073ED6300647DAA /* Array.swift */; };
 		C547EC691DB59F8F009817F3 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D55071DB58C0200B94B74 /* MBLane.swift */; };
 		C547EC6A1DB59F90009817F3 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D55071DB58C0200B94B74 /* MBLane.swift */; };
 		C547EC6B1DB59F91009817F3 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D55071DB58C0200B94B74 /* MBLane.swift */; };
@@ -73,6 +76,7 @@
 		C57D55041DB566A800B94B74 /* MBIntersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D55001DB5669600B94B74 /* MBIntersection.swift */; };
 		C57D55051DB566A900B94B74 /* MBIntersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D55001DB5669600B94B74 /* MBIntersection.swift */; };
 		C57D55081DB58C0200B94B74 /* MBLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D55071DB58C0200B94B74 /* MBLane.swift */; };
+		C582BA2E2073ED6300647DAA /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C582BA2D2073ED6300647DAA /* Array.swift */; };
 		C584E3F71F201C7B00BBC9BB /* MBRoadClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59426061F1EA6C400C8E59C /* MBRoadClasses.swift */; };
 		C584E3F81F201C7C00BBC9BB /* MBRoadClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59426061F1EA6C400C8E59C /* MBRoadClasses.swift */; };
 		C584E3F91F201C7D00BBC9BB /* MBRoadClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59426061F1EA6C400C8E59C /* MBRoadClasses.swift */; };
@@ -273,6 +277,7 @@
 		C57B2E951DB8171300E9123A /* MBLaneIndication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLaneIndication.h; sourceTree = "<group>"; };
 		C57D55001DB5669600B94B74 /* MBIntersection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBIntersection.swift; sourceTree = "<group>"; };
 		C57D55071DB58C0200B94B74 /* MBLane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBLane.swift; sourceTree = "<group>"; };
+		C582BA2D2073ED6300647DAA /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		C584E3FA1F2027EE00BBC9BB /* MBRoadClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBRoadClasses.h; sourceTree = "<group>"; };
 		C58EA7A91E9D7EAD008F98CE /* MBCongestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBCongestion.swift; sourceTree = "<group>"; };
 		C59094B4203B5C7F00EB2417 /* MBDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDrawingView.swift; sourceTree = "<group>"; };
@@ -447,6 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				8D381B691FDB101F008D5A58 /* String.swift */,
+				C582BA2D2073ED6300647DAA /* Array.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1149,6 +1155,7 @@
 				C58EA7AB1E9D7F73008F98CE /* MBCongestion.swift in Sources */,
 				8D381B6B1FDB3D8A008D5A58 /* String.swift in Sources */,
 				C56516851FE1AB8F00A0AD18 /* MBVisualInstructionType.swift in Sources */,
+				C54549FC2073F1EF002E273F /* Array.swift in Sources */,
 				C547EC691DB59F8F009817F3 /* MBLane.swift in Sources */,
 				DA1A10C71D00F969009F82FA /* MBDirections.swift in Sources */,
 			);
@@ -1198,6 +1205,7 @@
 				C58EA7AC1E9D7F74008F98CE /* MBCongestion.swift in Sources */,
 				8D381B6C1FDB3D8B008D5A58 /* String.swift in Sources */,
 				C56516861FE1AB9000A0AD18 /* MBVisualInstructionType.swift in Sources */,
+				C54549FD2073F1F0002E273F /* Array.swift in Sources */,
 				C547EC6A1DB59F90009817F3 /* MBLane.swift in Sources */,
 				DA1A10ED1D010247009F82FA /* MBDirections.swift in Sources */,
 			);
@@ -1247,6 +1255,7 @@
 				C58EA7AD1E9D7F75008F98CE /* MBCongestion.swift in Sources */,
 				8D381B6D1FDB3D8B008D5A58 /* String.swift in Sources */,
 				C56516871FE1AB9100A0AD18 /* MBVisualInstructionType.swift in Sources */,
+				C54549FE2073F1F1002E273F /* Array.swift in Sources */,
 				C547EC6B1DB59F91009817F3 /* MBLane.swift in Sources */,
 				DA1A11041D0103A3009F82FA /* MBDirections.swift in Sources */,
 			);
@@ -1258,6 +1267,7 @@
 			files = (
 				C51538CC1E807FF00093FF3E /* MBAttribute.swift in Sources */,
 				DA2E03EB1CB0E13D00D1269A /* MBRouteOptions.swift in Sources */,
+				C582BA2E2073ED6300647DAA /* Array.swift in Sources */,
 				C52552B91FA15D5900B1545C /* MBVisualInstruction.swift in Sources */,
 				C52552C01FA1628A00B1545C /* MBVisualInstructionComponent.swift in Sources */,
 				C59426071F1EA6C400C8E59C /* MBRoadClasses.swift in Sources */,
@@ -1353,11 +1363,11 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1384,10 +1394,10 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1454,11 +1464,11 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1485,10 +1495,10 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1555,11 +1565,11 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1587,10 +1597,10 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1617,12 +1627,12 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1646,11 +1656,11 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 26;
+				DYLIB_CURRENT_VERSION = 27;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
