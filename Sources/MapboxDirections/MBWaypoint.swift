@@ -132,7 +132,7 @@ open class Waypoint: NSObject, NSCopying, NSSecureCoding {
     /**
      The geographic coordinate of the waypoint.
      */
-    @objc public internal(set) var coordinate: CLLocationCoordinate2D
+    @objc public var coordinate: CLLocationCoordinate2D
 
     /**
      The radius of uncertainty for the waypoint, measured in meters.
