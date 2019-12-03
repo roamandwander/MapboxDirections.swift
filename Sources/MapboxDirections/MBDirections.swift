@@ -17,7 +17,7 @@ var skuToken: String? {
 }
 
 /// The user agent string for any HTTP requests performed directly within this library.
-let userAgent: String = {
+public let userAgent: String = {
     var components: [String] = []
 
     if let appName = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? Bundle.main.infoDictionary?["CFBundleIdentifier"] as? String {

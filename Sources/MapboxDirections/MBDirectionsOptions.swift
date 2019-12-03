@@ -12,7 +12,7 @@ import CMapboxDirections
  
  https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-general
  */
-let MaximumURLLength = 1024 * 8
+public let MaximumURLLength = 1024 * 8
 
 /**
  A `RouteShapeFormat` indicates the format of a route or match shape in the raw HTTP response.
@@ -531,7 +531,7 @@ open class DirectionsOptions: NSObject, NSSecureCoding, NSCopying {
         return queryItems
     }
     
-    internal var httpBody: String {
+    open var httpBody: String {
         var components = URLComponents()
         components.queryItems = urlQueryItems + [
             URLQueryItem(name: "coordinates", value: queries.joined(separator: ";")),
